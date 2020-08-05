@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'JSONify',
-  packages = ['JSONify'],
+  name = 'EasyJSON',
+  packages = ['EasyJSON'],
   version = '0.1',
   license='MIT',
-  description = 'A python package to ease the use of json',
-  author = 'minx28',
+  description = 'A python package to  ease the use of json',
+  author = 'Sadashi',
   author_email = 'sadashi767@gmail.com',
-  url = 'https://github.com/LostSoul0/JSONify',
-  download_url = 'https://github.com/LostSoul0/JSONify/archive/0.1.tar.gz',
+  url = 'https://github.com/LostSoul0/EasyJSON',
+  download_url = 'https://github.com/LostSoul0/EasyJSON/archive/0.1.tar.gz',
   keywords = ['database', 'db', 'easy', 'simple'],
   install_requires=[],
   classifiers=[

@@ -1,12 +1,12 @@
 # Installation
 ```
-pip install JSONify
+pip install EasyJSON
 ```
 # Usage
 
-JSONify is a package i made for people to ease the use of JSON files
+EasyJSON is a package i made for people to ease the use of JSON files
 ```py
-from JSONify import JSON
+from EasyJSON import JSON
 json = JSON("JSON_FILE_LOCATION", indent=4)
 ```
 
