@@ -7,7 +7,7 @@ pip install EasyJSON
 EasyJSON is a package i made for people to ease the use of JSON files
 ```py
 from EasyJSON import JSON
-json = JSON("JSON_FILE_LOCATION", indent=4)
+db = JSON("JSON_FILE_LOCATION", indent=4)
 ```
 
 You can now use it like any other db, but its a json!
