@@ -6,11 +6,6 @@ db = JSON(
 #	autosave=True
 )
 
-
+db.add('Water', 'Lava')
 all = db.query.query_all()
 print(all)
-
-one = db.query.filter_by('f')
-one['Water'] = 'lol'
-db.edit('f', 'lol')
-print(one)
